@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.product{
+    box-sizing: content-box;
+    height: 450px;
+    width: 250px;
+}
+.brand_bar{
+    background-color: #00FFFF;
+}
+.Description{
+    font-size: 25px;
+}
