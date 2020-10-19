@@ -1,0 +1,31 @@
+.parallex {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/pexels-quintin-gellar-313782.jpg")no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50px;
+    height: 40vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+    -webkit-perspective-origin-x: 100%;
+    perspective-origin-x: 100%;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .header_bar{
+    text-align: center;
+    margin-top: 25px;
+  }
+  .heading_bar{
+    text-align:center;
+  }
+  .imgA_bar{
+    margin-top: 100px;
+    
+  }
+
+ 
