@@ -1,0 +1,215 @@
+/*
+Theme Name:     FabTheme
+Version:        1.0
+Description:    Custom CSS
+*/
+/* 
+	All custom ids and classes used for the theme, starts with "fabtheme".
+	For documentation page, it uses "fabthemeDoc".
+*/
+/* TABLE OF CONTENTS */
+/*
+	1. body
+		1.1 #fabtheme-body
+	2. headlines
+		h1, h2, h3
+	3. headings
+		3.1 .fabtheme-headings
+	4. about
+		4.1 .fabtheme-about
+	5. services
+		5.1 .fabtheme-services-1
+		5.2 .fabtheme-services-2
+	6. count
+		6.1 .fabtheme-count
+	7. reviews
+		7.1 .fabtheme-reviews-1
+		7.2 .fabtheme-reviews-2
+		7.3 .fabtheme-reviews-3
+		7.4 .fabtheme-reviews-img
+	8. team
+		8.1 .fabtheme-team-1
+		8.2 .fabtheme-team-2
+	9. blog
+		9.1 .fabtheme-blog-1
+		9.2 .fabtheme-blog-2
+	10. video
+		10.1 .fabtheme-video
+	11. contact
+		11.1 .fabtheme-contact
+	12. newsletter
+		12.1 .fabtheme-newsletter
+	13. parallax
+		13.1 .fabtheme-parallax-1
+		13.2 .fabtheme-parallax-2
+		13.3 .fabtheme-parallax-3
+		13.4 .fabtheme-parallax-4
+	14. navigation
+		14.1 #fabtheme-navbar
+	15. link show
+		15.1 .fabtheme-link-show
+	16. links
+		16.1 .fabtheme-link-1
+		16.2 .fabtheme-link-2
+	17. tab
+		17.1 .fabtheme-tab
+	18. button
+		18.1 .fabtheme-button
+	19. card-columns
+		19.1 .fabtheme-card-columns
+	20. images zoom in
+		20.1 .fabtheme-zoom
+	21. scroll top
+		21.1 .fabtheme-scrolltop
+		21.2 .fabtheme-scroll
+		21.3 .fabtheme-scroll .fas
+	22. input
+		22.1 .fabtheme-field input
+	23. textarea
+		23.1 .fabtheme-field textarea
+	24. height of all elements
+		24.1 *
+	25. footer
+		25.1 #fabtheme-footer
+	26. documentation
+		26.1 .fabthemeDoc-scroll
+		26.2 .fabthemeDoc-pre
+		26.3 #fabthemeDoc-navbar
+		26.4 #fabthemeDoc-nav-pills
+		26.5 .fabthemeDoc-nav-link
+*/
+/* END OF TABLE OF CONTENTS */
+/* CUSTOM CSS */
+/* BODY */
+
+
+
+#fabtheme-body{
+	background-color: #343330;
+	color: #F3F3F3;
+	font-size: 18px;
+	height: 100vh;
+	font-family: 'Varela Round', sans-serif;
+}
+/* END OF BODY */
+
+
+/* LINK SHOW */
+.fabtheme-link-show{
+    padding-top: 60px;
+    margin-top: -60px;
+}
+/* END OF LINK SHOW */
+/* LINKS */
+.fabtheme-link-1{
+	color: #343330;
+}
+.fabtheme-link-1:hover{
+	color: #1F5673;
+}
+.fabtheme-link-2{
+	color: #F3F3F3;
+}
+.fabtheme-link-2:hover{
+	color: #E8F7EE;
+}
+.fabtheme-link-3{
+	color: #F3F3F3;
+}
+.fabtheme-link-3:hover{
+	color: #E3EDE9;
+	text-decoration: none;
+}
+/* END OF LINKS */
+/* TAB */
+.fabtheme-tab .nav-link, .fabtheme-tab .show>.nav-link{
+	color: #F3F3F3;
+	border-radius: 0;
+}
+.fabtheme-tab .nav-link:hover, .fabtheme-tab .show>.nav-link{
+	color: #DBDBDB;
+	border-radius: 0;
+}
+.fabtheme-tab .nav-link.active, .fabtheme-tab .show>.nav-link{
+	background-color: #334E58;
+	color: #F3F3F3;
+	border-radius: 0;
+}
+/* END OF TAB */
+/* BUTTON */
+.fabtheme-button{
+	background-color: #B3001B;
+	color: #F3F3F3;
+	border-radius: 0;
+}
+.fabtheme-button:hover{
+	background-color: #1F0318;
+	color: #F3F3F3;
+}
+/* END OF BUTTON */
+/* CARD COLUMNS */
+@media (min-width: 576px){
+    .fabtheme-card-columns{
+        column-count: 1;
+    }
+	.card-count>.fabtheme-card-columns{
+        column-count: 1;
+    }
+}
+@media (min-width: 768px){
+    .fabtheme-card-columns{
+        column-count: 1;
+    }
+	.card-count>.fabtheme-card-columns{
+        column-count: 1;
+    }
+}
+@media (min-width: 992px){
+    .fabtheme-card-columns{
+        column-count: 3;
+    }
+	.card-count>.fabtheme-card-columns{
+        column-count: 4;
+    }
+}
+@media (min-width: 1200px){
+    .fabtheme-card-columns{
+        column-count: 4;
+    }
+	.card-count>.fabtheme-card-columns{
+        column-count: 4;
+    }
+}
+/* END OF CARD COLUMNS */
+/* IMAGES ZOOM IN */
+.fabtheme-zoom img {
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease-in-out;
+	padding: 50px;
+}
+.fabtheme-zoom:hover img {
+    transform: scale(1.1);
+}
+/* END OF IMAGES ZOOM IN */
+
+/* INPUT */
+.fabtheme-field input{
+	border: 0;
+	border-radius: 0;
+}
+/* END OF INPUT */
+/* TEXTAREA */
+.fabtheme-field textarea{
+	border: 0;
+	border-radius: 0;
+}
+/* END OF TEXTAREA */
+/* HEIGHT OF ALL ELEMENTS */
+*{
+    min-height: 0.01px;
+}
+/* END OF HEIGHT OF ALL ELEMENTS */
+
+
+/* END OF CUSTOM CSS */
